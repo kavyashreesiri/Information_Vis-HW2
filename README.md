@@ -39,7 +39,7 @@ There are two methods provided by OpenRefine:
         * __Metaphone3__
             * It encodes a string into the specific English phonetic 
             * `Results` :United States was spelled as "United States of America"
-            * 
+            
 Summary of the above operations:
 
 | Method        | Keying Function               |Cluster size   |Row count   | Values in cluster                            | New cell value   |
