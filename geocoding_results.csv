@@ -1,0 +1,632 @@
+university,geocodingResponse,Latitude,Longitude,endowment,numFaculty,numDoctoral,country,numStaff,established,numPostgrad,numUndergrad,numStudents
+Stony Brook University,"{
+   ""results"" : [
+      {
+         ""address_components"" : [
+            {
+               ""long_name"" : ""100"",
+               ""short_name"" : ""100"",
+               ""types"" : [ ""street_number"" ]
+            },
+            {
+               ""long_name"" : ""Nicolls Road"",
+               ""short_name"" : ""Nicolls Rd"",
+               ""types"" : [ ""route"" ]
+            },
+            {
+               ""long_name"" : ""Stony Brook"",
+               ""short_name"" : ""Stony Brook"",
+               ""types"" : [ ""locality"", ""political"" ]
+            },
+            {
+               ""long_name"" : ""Suffolk County"",
+               ""short_name"" : ""Suffolk County"",
+               ""types"" : [ ""administrative_area_level_2"", ""political"" ]
+            },
+            {
+               ""long_name"" : ""New York"",
+               ""short_name"" : ""NY"",
+               ""types"" : [ ""administrative_area_level_1"", ""political"" ]
+            },
+            {
+               ""long_name"" : ""United States"",
+               ""short_name"" : ""US"",
+               ""types"" : [ ""country"", ""political"" ]
+            },
+            {
+               ""long_name"" : ""11794"",
+               ""short_name"" : ""11794"",
+               ""types"" : [ ""postal_code"" ]
+            }
+         ],
+         ""formatted_address"" : ""100 Nicolls Rd, Stony Brook, NY 11794, USA"",
+         ""geometry"" : {
+            ""location"" : {
+               ""lat"" : 40.9123761,
+               ""lng"" : -73.12338889999999
+            },
+            ""location_type"" : ""ROOFTOP"",
+            ""viewport"" : {
+               ""northeast"" : {
+                  ""lat"" : 40.9137250802915,
+                  ""lng"" : -73.1220399197085
+               },
+               ""southwest"" : {
+                  ""lat"" : 40.9110271197085,
+                  ""lng"" : -73.12473788029151
+               }
+            }
+         },
+         ""place_id"" : ""ChIJvzh05jM_6IkRhcy9aqUcTHM"",
+         ""types"" : [ ""establishment"", ""point_of_interest"", ""university"" ]
+      }
+   ],
+   ""status"" : ""OK""
+}
+",40.9123761,-73.1233889,95000000,1902,,United States,,1957,8252,16342,82
+Aarhus University,"{
+   ""results"" : [
+      {
+         ""address_components"" : [
+            {
+               ""long_name"" : ""1"",
+               ""short_name"" : ""1"",
+               ""types"" : [ ""street_number"" ]
+            },
+            {
+               ""long_name"" : ""Nordre Ringgade"",
+               ""short_name"" : ""Nordre Ringgade"",
+               ""types"" : [ ""route"" ]
+            },
+            {
+               ""long_name"" : ""Aarhus C"",
+               ""short_name"" : ""Aarhus C"",
+               ""types"" : [ ""political"", ""sublocality"", ""sublocality_level_1"" ]
+            },
+            {
+               ""long_name"" : ""Aarhus"",
+               ""short_name"" : ""Aarhus"",
+               ""types"" : [ ""locality"", ""political"" ]
+            },
+            {
+               ""long_name"" : ""Denmark"",
+               ""short_name"" : ""DK"",
+               ""types"" : [ ""country"", ""political"" ]
+            },
+            {
+               ""long_name"" : ""8000"",
+               ""short_name"" : ""8000"",
+               ""types"" : [ ""postal_code"" ]
+            }
+         ],
+         ""formatted_address"" : ""Nordre Ringgade 1, 8000 Aarhus C, Denmark"",
+         ""geometry"" : {
+            ""location"" : {
+               ""lat"" : 56.1681384,
+               ""lng"" : 10.2030118
+            },
+            ""location_type"" : ""ROOFTOP"",
+            ""viewport"" : {
+               ""northeast"" : {
+                  ""lat"" : 56.1694873802915,
+                  ""lng"" : 10.2043607802915
+               },
+               ""southwest"" : {
+                  ""lat"" : 56.1667894197085,
+                  ""lng"" : 10.2016628197085
+               }
+            }
+         },
+         ""place_id"" : ""ChIJ1RKOVsc_TEYRsO4nh79b9qA"",
+         ""types"" : [ ""establishment"", ""point_of_interest"", ""university"" ]
+      },
+      {
+         ""address_components"" : [
+            {
+               ""long_name"" : ""10"",
+               ""short_name"" : ""10"",
+               ""types"" : [ ""street_number"" ]
+            },
+            {
+               ""long_name"" : ""Inge Lehmanns Gade"",
+               ""short_name"" : ""Inge Lehmanns Gade"",
+               ""types"" : [ ""route"" ]
+            },
+            {
+               ""long_name"" : ""Aarhus C"",
+               ""short_name"" : ""Aarhus C"",
+               ""types"" : [ ""political"", ""sublocality"", ""sublocality_level_1"" ]
+            },
+            {
+               ""long_name"" : ""Denmark"",
+               ""short_name"" : ""DK"",
+               ""types"" : [ ""country"", ""political"" ]
+            },
+            {
+               ""long_name"" : ""8000"",
+               ""short_name"" : ""8000"",
+               ""types"" : [ ""postal_code"" ]
+            }
+         ],
+         ""formatted_address"" : ""Inge Lehmanns Gade 10, 8000 Aarhus C, Denmark"",
+         ""geometry"" : {
+            ""location"" : {
+               ""lat"" : 56.1586785,
+               ""lng"" : 10.2155954
+            },
+            ""location_type"" : ""ROOFTOP"",
+            ""viewport"" : {
+               ""northeast"" : {
+                  ""lat"" : 56.1600274802915,
+                  ""lng"" : 10.2169443802915
+               },
+               ""southwest"" : {
+                  ""lat"" : 56.1573295197085,
+                  ""lng"" : 10.2142464197085
+               }
+            }
+         },
+         ""place_id"" : ""ChIJQZZIyIs_TEYRkaUtPhewVgA"",
+         ""types"" : [ ""establishment"", ""point_of_interest"", ""university"" ]
+      }
+   ],
+   ""status"" : ""OK""
+}
+",56.1681384,10.2030118,5.27E9,,,Denmark,11000,1928,16395,17504,44
+Aarhus University,"{
+   ""results"" : [
+      {
+         ""address_components"" : [
+            {
+               ""long_name"" : ""1"",
+               ""short_name"" : ""1"",
+               ""types"" : [ ""street_number"" ]
+            },
+            {
+               ""long_name"" : ""Nordre Ringgade"",
+               ""short_name"" : ""Nordre Ringgade"",
+               ""types"" : [ ""route"" ]
+            },
+            {
+               ""long_name"" : ""Aarhus C"",
+               ""short_name"" : ""Aarhus C"",
+               ""types"" : [ ""political"", ""sublocality"", ""sublocality_level_1"" ]
+            },
+            {
+               ""long_name"" : ""Aarhus"",
+               ""short_name"" : ""Aarhus"",
+               ""types"" : [ ""locality"", ""political"" ]
+            },
+            {
+               ""long_name"" : ""Denmark"",
+               ""short_name"" : ""DK"",
+               ""types"" : [ ""country"", ""political"" ]
+            },
+            {
+               ""long_name"" : ""8000"",
+               ""short_name"" : ""8000"",
+               ""types"" : [ ""postal_code"" ]
+            }
+         ],
+         ""formatted_address"" : ""Nordre Ringgade 1, 8000 Aarhus C, Denmark"",
+         ""geometry"" : {
+            ""location"" : {
+               ""lat"" : 56.1681384,
+               ""lng"" : 10.2030118
+            },
+            ""location_type"" : ""ROOFTOP"",
+            ""viewport"" : {
+               ""northeast"" : {
+                  ""lat"" : 56.1694873802915,
+                  ""lng"" : 10.2043607802915
+               },
+               ""southwest"" : {
+                  ""lat"" : 56.1667894197085,
+                  ""lng"" : 10.2016628197085
+               }
+            }
+         },
+         ""place_id"" : ""ChIJ1RKOVsc_TEYRsO4nh79b9qA"",
+         ""types"" : [ ""establishment"", ""point_of_interest"", ""university"" ]
+      },
+      {
+         ""address_components"" : [
+            {
+               ""long_name"" : ""10"",
+               ""short_name"" : ""10"",
+               ""types"" : [ ""street_number"" ]
+            },
+            {
+               ""long_name"" : ""Inge Lehmanns Gade"",
+               ""short_name"" : ""Inge Lehmanns Gade"",
+               ""types"" : [ ""route"" ]
+            },
+            {
+               ""long_name"" : ""Aarhus C"",
+               ""short_name"" : ""Aarhus C"",
+               ""types"" : [ ""political"", ""sublocality"", ""sublocality_level_1"" ]
+            },
+            {
+               ""long_name"" : ""Denmark"",
+               ""short_name"" : ""DK"",
+               ""types"" : [ ""country"", ""political"" ]
+            },
+            {
+               ""long_name"" : ""8000"",
+               ""short_name"" : ""8000"",
+               ""types"" : [ ""postal_code"" ]
+            }
+         ],
+         ""formatted_address"" : ""Inge Lehmanns Gade 10, 8000 Aarhus C, Denmark"",
+         ""geometry"" : {
+            ""location"" : {
+               ""lat"" : 56.1586785,
+               ""lng"" : 10.2155954
+            },
+            ""location_type"" : ""ROOFTOP"",
+            ""viewport"" : {
+               ""northeast"" : {
+                  ""lat"" : 56.1600274802915,
+                  ""lng"" : 10.2169443802915
+               },
+               ""southwest"" : {
+                  ""lat"" : 56.1573295197085,
+                  ""lng"" : 10.2142464197085
+               }
+            }
+         },
+         ""place_id"" : ""ChIJQZZIyIs_TEYRkaUtPhewVgA"",
+         ""types"" : [ ""establishment"", ""point_of_interest"", ""university"" ]
+      }
+   ],
+   ""status"" : ""OK""
+}
+",56.1681384,10.2030118,5.27E9,,,Denmark,11382,1928,16395,17504,44
+Stony Brook University,"{
+   ""results"" : [
+      {
+         ""address_components"" : [
+            {
+               ""long_name"" : ""100"",
+               ""short_name"" : ""100"",
+               ""types"" : [ ""street_number"" ]
+            },
+            {
+               ""long_name"" : ""Nicolls Road"",
+               ""short_name"" : ""Nicolls Rd"",
+               ""types"" : [ ""route"" ]
+            },
+            {
+               ""long_name"" : ""Stony Brook"",
+               ""short_name"" : ""Stony Brook"",
+               ""types"" : [ ""locality"", ""political"" ]
+            },
+            {
+               ""long_name"" : ""Suffolk County"",
+               ""short_name"" : ""Suffolk County"",
+               ""types"" : [ ""administrative_area_level_2"", ""political"" ]
+            },
+            {
+               ""long_name"" : ""New York"",
+               ""short_name"" : ""NY"",
+               ""types"" : [ ""administrative_area_level_1"", ""political"" ]
+            },
+            {
+               ""long_name"" : ""United States"",
+               ""short_name"" : ""US"",
+               ""types"" : [ ""country"", ""political"" ]
+            },
+            {
+               ""long_name"" : ""11794"",
+               ""short_name"" : ""11794"",
+               ""types"" : [ ""postal_code"" ]
+            }
+         ],
+         ""formatted_address"" : ""100 Nicolls Rd, Stony Brook, NY 11794, USA"",
+         ""geometry"" : {
+            ""location"" : {
+               ""lat"" : 40.9123761,
+               ""lng"" : -73.12338889999999
+            },
+            ""location_type"" : ""ROOFTOP"",
+            ""viewport"" : {
+               ""northeast"" : {
+                  ""lat"" : 40.9137250802915,
+                  ""lng"" : -73.1220399197085
+               },
+               ""southwest"" : {
+                  ""lat"" : 40.9110271197085,
+                  ""lng"" : -73.12473788029151
+               }
+            }
+         },
+         ""place_id"" : ""ChIJvzh05jM_6IkRhcy9aqUcTHM"",
+         ""types"" : [ ""establishment"", ""point_of_interest"", ""university"" ]
+      }
+   ],
+   ""status"" : ""OK""
+}
+",40.9123761,-73.1233889,101000000,1902,,United States,,1957,8252,16342,82
+Aarhus University,"{
+   ""results"" : [
+      {
+         ""address_components"" : [
+            {
+               ""long_name"" : ""1"",
+               ""short_name"" : ""1"",
+               ""types"" : [ ""street_number"" ]
+            },
+            {
+               ""long_name"" : ""Nordre Ringgade"",
+               ""short_name"" : ""Nordre Ringgade"",
+               ""types"" : [ ""route"" ]
+            },
+            {
+               ""long_name"" : ""Aarhus C"",
+               ""short_name"" : ""Aarhus C"",
+               ""types"" : [ ""political"", ""sublocality"", ""sublocality_level_1"" ]
+            },
+            {
+               ""long_name"" : ""Aarhus"",
+               ""short_name"" : ""Aarhus"",
+               ""types"" : [ ""locality"", ""political"" ]
+            },
+            {
+               ""long_name"" : ""Denmark"",
+               ""short_name"" : ""DK"",
+               ""types"" : [ ""country"", ""political"" ]
+            },
+            {
+               ""long_name"" : ""8000"",
+               ""short_name"" : ""8000"",
+               ""types"" : [ ""postal_code"" ]
+            }
+         ],
+         ""formatted_address"" : ""Nordre Ringgade 1, 8000 Aarhus C, Denmark"",
+         ""geometry"" : {
+            ""location"" : {
+               ""lat"" : 56.1681384,
+               ""lng"" : 10.2030118
+            },
+            ""location_type"" : ""ROOFTOP"",
+            ""viewport"" : {
+               ""northeast"" : {
+                  ""lat"" : 56.1694873802915,
+                  ""lng"" : 10.2043607802915
+               },
+               ""southwest"" : {
+                  ""lat"" : 56.1667894197085,
+                  ""lng"" : 10.2016628197085
+               }
+            }
+         },
+         ""place_id"" : ""ChIJ1RKOVsc_TEYRsO4nh79b9qA"",
+         ""types"" : [ ""establishment"", ""point_of_interest"", ""university"" ]
+      },
+      {
+         ""address_components"" : [
+            {
+               ""long_name"" : ""10"",
+               ""short_name"" : ""10"",
+               ""types"" : [ ""street_number"" ]
+            },
+            {
+               ""long_name"" : ""Inge Lehmanns Gade"",
+               ""short_name"" : ""Inge Lehmanns Gade"",
+               ""types"" : [ ""route"" ]
+            },
+            {
+               ""long_name"" : ""Aarhus C"",
+               ""short_name"" : ""Aarhus C"",
+               ""types"" : [ ""political"", ""sublocality"", ""sublocality_level_1"" ]
+            },
+            {
+               ""long_name"" : ""Denmark"",
+               ""short_name"" : ""DK"",
+               ""types"" : [ ""country"", ""political"" ]
+            },
+            {
+               ""long_name"" : ""8000"",
+               ""short_name"" : ""8000"",
+               ""types"" : [ ""postal_code"" ]
+            }
+         ],
+         ""formatted_address"" : ""Inge Lehmanns Gade 10, 8000 Aarhus C, Denmark"",
+         ""geometry"" : {
+            ""location"" : {
+               ""lat"" : 56.1586785,
+               ""lng"" : 10.2155954
+            },
+            ""location_type"" : ""ROOFTOP"",
+            ""viewport"" : {
+               ""northeast"" : {
+                  ""lat"" : 56.1600274802915,
+                  ""lng"" : 10.2169443802915
+               },
+               ""southwest"" : {
+                  ""lat"" : 56.1573295197085,
+                  ""lng"" : 10.2142464197085
+               }
+            }
+         },
+         ""place_id"" : ""ChIJQZZIyIs_TEYRkaUtPhewVgA"",
+         ""types"" : [ ""establishment"", ""point_of_interest"", ""university"" ]
+      }
+   ],
+   ""status"" : ""OK""
+}
+",56.1681384,10.2030118,6.196E9,,NA,Denmark,11000,1928,16395,17504,44
+Aarhus University,"{
+   ""results"" : [
+      {
+         ""address_components"" : [
+            {
+               ""long_name"" : ""1"",
+               ""short_name"" : ""1"",
+               ""types"" : [ ""street_number"" ]
+            },
+            {
+               ""long_name"" : ""Nordre Ringgade"",
+               ""short_name"" : ""Nordre Ringgade"",
+               ""types"" : [ ""route"" ]
+            },
+            {
+               ""long_name"" : ""Aarhus C"",
+               ""short_name"" : ""Aarhus C"",
+               ""types"" : [ ""political"", ""sublocality"", ""sublocality_level_1"" ]
+            },
+            {
+               ""long_name"" : ""Aarhus"",
+               ""short_name"" : ""Aarhus"",
+               ""types"" : [ ""locality"", ""political"" ]
+            },
+            {
+               ""long_name"" : ""Denmark"",
+               ""short_name"" : ""DK"",
+               ""types"" : [ ""country"", ""political"" ]
+            },
+            {
+               ""long_name"" : ""8000"",
+               ""short_name"" : ""8000"",
+               ""types"" : [ ""postal_code"" ]
+            }
+         ],
+         ""formatted_address"" : ""Nordre Ringgade 1, 8000 Aarhus C, Denmark"",
+         ""geometry"" : {
+            ""location"" : {
+               ""lat"" : 56.1681384,
+               ""lng"" : 10.2030118
+            },
+            ""location_type"" : ""ROOFTOP"",
+            ""viewport"" : {
+               ""northeast"" : {
+                  ""lat"" : 56.1694873802915,
+                  ""lng"" : 10.2043607802915
+               },
+               ""southwest"" : {
+                  ""lat"" : 56.1667894197085,
+                  ""lng"" : 10.2016628197085
+               }
+            }
+         },
+         ""place_id"" : ""ChIJ1RKOVsc_TEYRsO4nh79b9qA"",
+         ""types"" : [ ""establishment"", ""point_of_interest"", ""university"" ]
+      },
+      {
+         ""address_components"" : [
+            {
+               ""long_name"" : ""10"",
+               ""short_name"" : ""10"",
+               ""types"" : [ ""street_number"" ]
+            },
+            {
+               ""long_name"" : ""Inge Lehmanns Gade"",
+               ""short_name"" : ""Inge Lehmanns Gade"",
+               ""types"" : [ ""route"" ]
+            },
+            {
+               ""long_name"" : ""Aarhus C"",
+               ""short_name"" : ""Aarhus C"",
+               ""types"" : [ ""political"", ""sublocality"", ""sublocality_level_1"" ]
+            },
+            {
+               ""long_name"" : ""Denmark"",
+               ""short_name"" : ""DK"",
+               ""types"" : [ ""country"", ""political"" ]
+            },
+            {
+               ""long_name"" : ""8000"",
+               ""short_name"" : ""8000"",
+               ""types"" : [ ""postal_code"" ]
+            }
+         ],
+         ""formatted_address"" : ""Inge Lehmanns Gade 10, 8000 Aarhus C, Denmark"",
+         ""geometry"" : {
+            ""location"" : {
+               ""lat"" : 56.1586785,
+               ""lng"" : 10.2155954
+            },
+            ""location_type"" : ""ROOFTOP"",
+            ""viewport"" : {
+               ""northeast"" : {
+                  ""lat"" : 56.1600274802915,
+                  ""lng"" : 10.2169443802915
+               },
+               ""southwest"" : {
+                  ""lat"" : 56.1573295197085,
+                  ""lng"" : 10.2142464197085
+               }
+            }
+         },
+         ""place_id"" : ""ChIJQZZIyIs_TEYRkaUtPhewVgA"",
+         ""types"" : [ ""establishment"", ""point_of_interest"", ""university"" ]
+      }
+   ],
+   ""status"" : ""OK""
+}
+",56.1681384,10.2030118,6.196E9,,NA,Denmark,11382,1928,16395,17504,44
+Stony Brook University,"{
+   ""results"" : [
+      {
+         ""address_components"" : [
+            {
+               ""long_name"" : ""100"",
+               ""short_name"" : ""100"",
+               ""types"" : [ ""street_number"" ]
+            },
+            {
+               ""long_name"" : ""Nicolls Road"",
+               ""short_name"" : ""Nicolls Rd"",
+               ""types"" : [ ""route"" ]
+            },
+            {
+               ""long_name"" : ""Stony Brook"",
+               ""short_name"" : ""Stony Brook"",
+               ""types"" : [ ""locality"", ""political"" ]
+            },
+            {
+               ""long_name"" : ""Suffolk County"",
+               ""short_name"" : ""Suffolk County"",
+               ""types"" : [ ""administrative_area_level_2"", ""political"" ]
+            },
+            {
+               ""long_name"" : ""New York"",
+               ""short_name"" : ""NY"",
+               ""types"" : [ ""administrative_area_level_1"", ""political"" ]
+            },
+            {
+               ""long_name"" : ""United States"",
+               ""short_name"" : ""US"",
+               ""types"" : [ ""country"", ""political"" ]
+            },
+            {
+               ""long_name"" : ""11794"",
+               ""short_name"" : ""11794"",
+               ""types"" : [ ""postal_code"" ]
+            }
+         ],
+         ""formatted_address"" : ""100 Nicolls Rd, Stony Brook, NY 11794, USA"",
+         ""geometry"" : {
+            ""location"" : {
+               ""lat"" : 40.9123761,
+               ""lng"" : -73.12338889999999
+            },
+            ""location_type"" : ""ROOFTOP"",
+            ""viewport"" : {
+               ""northeast"" : {
+                  ""lat"" : 40.9137250802915,
+                  ""lng"" : -73.1220399197085
+               },
+               ""southwest"" : {
+                  ""lat"" : 40.9110271197085,
+                  ""lng"" : -73.12473788029151
+               }
+            }
+         },
+         ""place_id"" : ""ChIJvzh05jM_6IkRhcy9aqUcTHM"",
+         ""types"" : [ ""establishment"", ""point_of_interest"", ""university"" ]
+      }
+   ],
+   ""status"" : ""OK""
+}
+",40.9123761,-73.1233889,1.102E8,1902,NA,United States,,1957,8252,16342,82
