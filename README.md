@@ -6,7 +6,7 @@ Link to Homework-2:
 ** H3 Homework 2-Writeup**
 
 ** Tutorial **
-1.Clean up country names
+1. Clean up country names
 ------------------------
 Therer were other countries with issues of spelling.Variations of Country names are listed below are:
 * "Netherlands" which was also spelled as "the netherlands"
@@ -49,8 +49,17 @@ __Summary of the above operations:__
 |Key collision  | Metaphone3                    | 2             | 46046      | United States(45431 rows),United States of America(615 rows)|United States|
 
 
-2. Using Nearest neighbor
+* Using Nearest neighbor
+  This method alots a cluster to any pair of strings that are closer than a certain threshold value
+  There are two methods provided calculate distance between a pair of strings.They are:
+  *Levenshtein Distance- calculates least number of edit operations that are reqiuired to change one string to another
+  *PPM-Uses Kolmogrov complexity to estimate 'Similarity' between strings.
     
+Below is the Summary of results obtained from Nearset Neighbour method:
+
+| Method        | Distance Function |Radius|Block Chars|Cluster size|Row count| Values in cluster                            | New cell value   |
+| :-----------: | :-------------:   |:----:|:--------: |:--------:  |:-------:|--------------------------------| :------------:   |
+|Nearest neighbor|Levenshtein|4|2|3722|	England(3398 rows),England, UK(324 rows)|England|
 
 
 
