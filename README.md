@@ -21,7 +21,7 @@ There are two methods provided by OpenRefine:
 1. Key Collision-This method allows us to cluster many alternative values which have same meaning to have the same key
 2. Nearest neighbor
 
-1. Using Key Collision to find variations:
+ * Using Key Collision to find variations:
     This method provides **3 Keying functions**:
     * __Fingerprint__
         * This method follows the process that produces a key from string value of variety of contexts
