@@ -3,10 +3,10 @@ Kavyashree Sirigere Prakash,CS 725,Spring 2018
 Link to Homework-2:
 * http://www.cs.odu.edu/~psiriger/cs725/CS725-HW2/
 
-** H3 Homework 2-Writeup**
+**  Homework 2-Writeup**
 
 ** Tutorial **
-1. Clean up country names
+1. ** Clean up country names **
 ------------------------
 Therer were other countries with issues of spelling.Variations of Country names are listed below are:
 * "Netherlands" which was also spelled as "the netherlands"
@@ -59,8 +59,40 @@ Below is the Summary of results obtained from Nearset Neighbour method:
 
 | Method        | Distance Function |Radius|Block Chars|Cluster size|Row count| Values in cluster                            | New cell value   |
 | :-----------: | :-------------:   |:----:|:--------: |:--------:  |:-------:|--------------------------------| :------------:   |
-|Nearest neighbor|Levenshtein|4|2|3722|	England(3398 rows),England, UK(324 rows)|England|
+|Nearest neighbor|Levenshtein|4| |2 |3722|	England(3398 rows),England, UK(324 rows)|England|
+|Nearest neighbor|Levenshtein|4| |2  |3124|Scotland(3060 rows),Scotland, UK(64 rows)|Scotland|
+|Nearest neighbor|PPM|7.5| |2  |577|Canada B1P 6L2(576 rows),Canada C1A 4P3 Telephone: 902-566-0439 Fax: 902-566-0795(1 rows)|Canada|
+|Nearest neighbor|PPM|7.5| |2  |5|Russia(3 rows),Russian Federation(2 rows)|Russia|
+|Nearest neighbor|PPM|7.5| |2  |4294|England(3722 rows),England, United Kingdom(572 rows),England|England|
+|Nearest neighbor|PPM|7.5| |2  |3140|Scotland(3124 rows)|Scotland, United Kingdom(16 rows)|Scotland|
+|Nearest neighbor|PPM|8.0|5 |2  |6|China(4 rows),Republic of China(2 rows)|China|
 
+
+2. ** Clean up values for the endowment **
+There were 1111 number of entries that used million or Million
+There were 19501 number of entries that used billion or Billion
+
+3. ** Finding issues in other columns **
+
+
+
+
+
+
+
+
+
+
+4. ** Exploring the data with scatter plots **
+    Yes,there is correlation.As the endowmwnt donation amount incresases for a specific university,Number of students also increase.
+5. ** Geocoding names and addresses **
+    I selected 7 rows from numeric log facet applied on numStudents column.
+    I obtained 51096 rows from original dataset which had 75043 rows after performing geocoding
+
+6. 27 Club
+    I found out that 90 musicians were dead at the age of 27.
+
+    
 
 
 
