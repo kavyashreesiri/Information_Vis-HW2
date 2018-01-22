@@ -40,11 +40,11 @@ There are two methods provided by OpenRefine:
             * It encodes a string into the specific English phonetic 
             * __ Results__:United States was spelled as "United States of America"
 Summary of the above operations:
-| Method        | Keying Function               |Cluster size|Row count  | Values in cluster                            | New cell value |
-| :-----------: | :-------------------------:   |:----------:| :--------:| :-------------------------------------------:| :------------: |
-|Key collision  | Ngram-fingerprint,n-gram=1    | 2          | 4         | Netherlands(2 rows),	the Netherlands(2 rows) | Netherlands    |
-|Key collision  | Cologne-phonetic              | 2          | 3         | Rossija(2 rows),Russia(1 rows)               | Russia    |
-|Key collision  | Metaphone3                    | 2          | 46046     | United States(45431 rows),United States of America(615 rows)|United States|
+| Method        | Keying Function               |Cluster size   |Row count   | Values in cluster                            | New cell value   |
+| :-----------: | :-------------------------:   |:----------:   | :--------: |----------------------------------------------| :------------:   |
+|Key collision  | Ngram-fingerprint,n-gram=1    | 2             | 4          | Netherlands(2 rows),	the Netherlands(2 rows) | Netherlands      |
+|Key collision  | Cologne-phonetic              | 2             | 3          | Rossija(2 rows),Russia(1 rows)               | Russia           |
+|Key collision  | Metaphone3                    | 2             | 46046      | United States(45431 rows),United States of America(615 rows)|United States|
 
 
 2. Using Nearest neighbor
