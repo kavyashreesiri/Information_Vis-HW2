@@ -28,7 +28,7 @@ There are two methods provided by OpenRefine:
         * But,this method did not give any results for this dataset.            
     * __N-gram fingerprint__
         * Here, n-grams(number of characters in the string) is specified to cluster the tokens
-        *__ Results__: For 1-gram fingerprint of "Netherlands" is "the Netherlands" (n-gram=1)
+        * __ Results__ : For 1-gram fingerprint of "Netherlands" is "the Netherlands" (n-gram=1)
     * __Phonetic Fingerprint__
         * This method converts tokens into the way they are pronounced
         * It  is very helpful to find variations of country names as poeple spell names differently.
@@ -38,8 +38,10 @@ There are two methods provided by OpenRefine:
             * __ Results__:In two rows,Russia was pronounced as "Rossija"
         * __Metaphone3__
             * It encodes a string into the specific English phonetic 
-            * __ Results__:United States was spelled as "United States of America"
+            * __ Results__ :United States was spelled as "United States of America"
+            * 
 Summary of the above operations:
+
 | Method        | Keying Function               |Cluster size   |Row count   | Values in cluster                            | New cell value   |
 | :-----------: | :-------------------------:   |:----------:   | :--------: |----------------------------------------------| :------------:   |
 |Key collision  | Ngram-fingerprint,n-gram=1    | 2             | 4          | Netherlands(2 rows),	the Netherlands(2 rows) | Netherlands      |
