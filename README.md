@@ -50,11 +50,11 @@ __Summary of the above operations:__
 
 
  * __Using Nearest neighbor__   
-  *This method allots a cluster to any pair of strings that are closer than a certain threshold value
-  *There are two methods provided calculate distance between a pair of strings.
-   *They are:
-   *Levenshtein Distance- calculates least number of edit operations that are reqiuired to change one string to another
-   *PPM-Uses Kolmogrov complexity to estimate 'Similarity' between strings.
+  * This method allots a cluster to any pair of strings that are closer than a certain threshold value  
+  * There are two methods provided calculate distance between a pair of strings.
+   * They are:
+   * Levenshtein Distance- calculates least number of edit operations that are reqiuired to change one string to another
+   * PPM-Uses Kolmogrov complexity to estimate 'Similarity' between strings.
     
 Below is the Summary of results obtained from Nearset Neighbour method:
 
@@ -71,8 +71,8 @@ Below is the Summary of results obtained from Nearset Neighbour method:
 
 2. __Clean up values for the endowment__
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-There were `1111` number of entries that used million or Million
-There were `19501` number of entries that used billion or Billion
+  * There were `1111` number of entries that used million or Million
+  * There were `19501` number of entries that used billion or Billion
 
 3. __Finding issues in other columns__
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -86,12 +86,15 @@ There were `19501` number of entries that used billion or Billion
 
 
 4. __Exploring the data with scatter plots__
+ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     Yes,there is correlation.As the endowmwnt donation amount incresases for a specific university,Number of students also increase.
 5. __Geocoding names and addresses__
+ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     I selected 7 rows from numeric log facet applied on numStudents column.
     I obtained 51096 rows from original dataset which had 75043 rows after performing geocoding
 
 6. __27 Club__
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     I found out that __90 musicians were dead at the age of 27__.  
     Process followed:  
     *Created project "Musicians" in OpenRefine by uploading the dataset  
