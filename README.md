@@ -90,7 +90,7 @@ Below is the Summary of results obtained from Nearset Neighbour method:
     Yes,there is correlation.As the endowment donation amount incresases for a specific university,Number of students also increase. It shows __positive correlation__.   
 
 5. __Geocoding names and addresses__
- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     * I selected 7 rows from numeric log facet applied on numStudents column.
     * I obtained 51096 rows from original dataset which had 75043 rows after performing geocoding
 
@@ -99,11 +99,11 @@ Below is the Summary of results obtained from Nearset Neighbour method:
     * I found out that __90 musicians were dead at the age of 27__.  
     
     Process followed:  
-    * Created project "Musicians" in OpenRefine by uploading the dataset  
-    * Created a new column named birthdate that uses the first value it encounters when scanning from birthdate1 to birthdate2 to birthdate3 in each row
-    * I used the below transform :
+    * Created project "Musicians" in OpenRefine by uploading the dataset.    
+    * Created a new column named birthdate that uses the first value it encounters when scanning from birthdate1 to birthdate2 to birthdate3 in each row.  
+    * I used the below transform :   
            `forNonBlank(cells.birthdate1.value, v1, v1, forNonBlank(cells.birthdate2.value, v2, v2, forNonBlank(cells.birthdate3.value, v3, v3, null)))`
-    * To apply transform,select one of the birthdate column and click on Edit cells,then choose Transform.
+    * To apply transform,select one of the birthdate column and click on Edit cells,then choose Transform.    
     * 
 
 
