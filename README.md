@@ -3,10 +3,10 @@ Kavyashree Sirigere Prakash,CS 725,Spring 2018
 Link to Homework-2:
 * http://www.cs.odu.edu/~psiriger/cs725/CS725-HW2/
 
-**  Homework 2-Writeup**
+__Homework 2-Writeup__
 
-** Tutorial **
-1. ** Clean up country names **
+__Tutorial__
+1. __Clean up country names__
 ------------------------
 Therer were other countries with issues of spelling.Variations of Country names are listed below are:
 * "Netherlands" which was also spelled as "the netherlands"
@@ -16,13 +16,13 @@ Therer were other countries with issues of spelling.Variations of Country names 
 * "Canada" which was also spelled as "Canada BIP 6L2"
 * "Scotland" which was also spelled as "Scotland,UK","Scotland,United Kingdom","Scotland,U.K"
 
-In order to discover these variations,I used various **Methods** and **Keying functions** with different parameters.
+In order to discover these variations,I used various __Methods__ and __Keying functions__ with different parameters.
 There are two methods provided by OpenRefine:
 1. Key Collision-This method allows us to cluster many alternative values which have same meaning to have the same key
 2. Nearest neighbor
 
  * Using Key Collision to find variations:
-    This method provides **3 Keying functions**:
+    This method provides __3 Keying functions__:
     * __Fingerprint__
         * This method follows the process that produces a key from string value of variety of contexts
         * But,this method did not give any results for this dataset.            
@@ -50,10 +50,11 @@ __Summary of the above operations:__
 
 
 * Using Nearest neighbor
-  This method alots a cluster to any pair of strings that are closer than a certain threshold value
-  There are two methods provided calculate distance between a pair of strings.They are:
-  *Levenshtein Distance- calculates least number of edit operations that are reqiuired to change one string to another
-  *PPM-Uses Kolmogrov complexity to estimate 'Similarity' between strings.
+  *This method allots a cluster to any pair of strings that are closer than a certain threshold value
+  *There are two methods provided calculate distance between a pair of strings.
+   *They are:
+   *Levenshtein Distance- calculates least number of edit operations that are reqiuired to change one string to another
+   *PPM-Uses Kolmogrov complexity to estimate 'Similarity' between strings.
     
 Below is the Summary of results obtained from Nearset Neighbour method:
 
@@ -68,11 +69,11 @@ Below is the Summary of results obtained from Nearset Neighbour method:
 |Nearest neighbor|PPM|8.0|5 |2  |6|China(4 rows),Republic of China(2 rows)|China|
 
 
-2. ** Clean up values for the endowment **
+2. __Clean up values for the endowment__
 There were 1111 number of entries that used million or Million
 There were 19501 number of entries that used billion or Billion
 
-3. ** Finding issues in other columns **
+3. __Finding issues in other columns__
 
 
 
@@ -83,14 +84,14 @@ There were 19501 number of entries that used billion or Billion
 
 
 
-4. ** Exploring the data with scatter plots **
+4. __Exploring the data with scatter plots__
     Yes,there is correlation.As the endowmwnt donation amount incresases for a specific university,Number of students also increase.
-5. ** Geocoding names and addresses **
+5. __Geocoding names and addresses__
     I selected 7 rows from numeric log facet applied on numStudents column.
     I obtained 51096 rows from original dataset which had 75043 rows after performing geocoding
 
-6. 27 Club
-    I found out that 90 musicians were dead at the age of 27.
+6. __27 Club__
+    I found out that __90 musicians were dead at the age of 27__.
 
     
 
