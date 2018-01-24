@@ -7,7 +7,7 @@ __Homework 2-Writeup__
 
 __Tutorial__
 1. __Clean up country names__
-------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Therer were other countries with issues of spelling.Variations of Country names are listed below are:
 * "Netherlands" which was also spelled as "the netherlands"
 * "England" which was also spelled as "England,UK","England,United Kingdom","England,U.K"
@@ -18,10 +18,10 @@ Therer were other countries with issues of spelling.Variations of Country names 
 
 In order to discover these variations,I used various __Methods__ and __Keying functions__ with different parameters.
 There are two methods provided by OpenRefine:
-1. Key Collision-This method allows us to cluster many alternative values which have same meaning to have the same key
-2. Nearest neighbor
+1. __Key Collision__-This method allows us to cluster many alternative values which have same meaning to have the same key
+2. __Nearest neighbor__
 
- * Using Key Collision to find variations:
+  * __Using Key Collision to find variations__:
     This method provides __3 Keying functions__:
     * __Fingerprint__
         * This method follows the process that produces a key from string value of variety of contexts
@@ -49,7 +49,7 @@ __Summary of the above operations:__
 |Key collision  | Metaphone3                    | 2             | 46046      | United States(45431 rows),United States of America(615 rows)|United States|
 
 
-* Using Nearest neighbor
+ * __Using Nearest neighbor__   
   *This method allots a cluster to any pair of strings that are closer than a certain threshold value
   *There are two methods provided calculate distance between a pair of strings.
    *They are:
@@ -70,11 +70,12 @@ Below is the Summary of results obtained from Nearset Neighbour method:
 
 
 2. __Clean up values for the endowment__
-There were 1111 number of entries that used million or Million
-There were 19501 number of entries that used billion or Billion
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+There were `1111` number of entries that used million or Million
+There were `19501` number of entries that used billion or Billion
 
 3. __Finding issues in other columns__
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -91,9 +92,14 @@ There were 19501 number of entries that used billion or Billion
     I obtained 51096 rows from original dataset which had 75043 rows after performing geocoding
 
 6. __27 Club__
-    I found out that __90 musicians were dead at the age of 27__.
-
-    
+    I found out that __90 musicians were dead at the age of 27__.  
+    Process followed:  
+    *Created project "Musicians" in OpenRefine by uploading the dataset  
+    *Created a new column named birthdate that uses the first value it encounters when scanning from birthdate1 to birthdate2 to birthdate3 in each row
+    *I used the below transform :
+           `forNonBlank(cells.birthdate1.value, v1, v1, forNonBlank(cells.birthdate2.value, v2, v2, forNonBlank(cells.birthdate3.value, v3, v3, null)))`
+    *To apply transform,select one of the birthdate column and click on Edit cells,then choose Transform.
+    *
 
 
 
