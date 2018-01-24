@@ -7,16 +7,16 @@ __Homework 2-Writeup__
 
 
  __Clean up country names__   
-* There were other countries with issues of spelling.Variations of Country names are listed below are:
-        * "Netherlands" which was also spelled as "the netherlands"   
-        * "England" which was also spelled as "England,UK","England,United Kingdom","England,U.K"   
-        * "Russia" which also spelled as "Rossija","Russain Federation"   
-        * "China" which also spelled as "Republic of China"   
-        * "Canada" which was also spelled as "Canada BIP 6L2"   
-        * "Scotland" which was also spelled as "Scotland,UK","Scotland,United Kingdom","Scotland,U.K"   
+* There were other countries with issues of spelling.Variations of Country names are listed below are:   
+        * "Netherlands" which was also spelled as "the netherlands"      
+        * "England" which was also spelled as "England,UK","England,United Kingdom","England,U.K"     
+        * "Russia" which also spelled as "Rossija","Russain Federation"      
+        * "China" which also spelled as "Republic of China"     
+        * "Canada" which was also spelled as "Canada BIP 6L2"      
+        * "Scotland" which was also spelled as "Scotland,UK","Scotland,United Kingdom","Scotland,U.K"      
 
-    In order to discover these variations,I used various __Methods__ and __Keying functions__ with different parameters.
-    There are two methods provided by OpenRefine:
+* In order to discover these variations,I used various __Methods__ and __Keying functions__ with different parameters.
+* There are two methods provided by OpenRefine:
    1. __Key Collision__-This method allows us to cluster many alternative values which have same meaning to have the same key
    2. __Nearest neighbor__
 
