@@ -5,9 +5,9 @@ Link to Homework-2:
 
 __Homework 2-Writeup__
 
-__Tutorial__
+
 1. __Clean up country names__   
-    * There were other countries with issues of spelling.Variations of Country names are listed below are:
+* There were other countries with issues of spelling.Variations of Country names are listed below are:
         * "Netherlands" which was also spelled as "the netherlands"
         * "England" which was also spelled as "England,UK","England,United Kingdom","England,U.K"
         * "Russia" which also spelled as "Rossija","Russain Federation"
@@ -68,12 +68,12 @@ Below is the Summary of results obtained from Nearset Neighbour method:
 |Nearest neighbor|PPM|8.0|5 |2  |6|China(4 rows),Republic of China(2 rows)|China|
 
 
-2. __Clean up values for the endowment__   
+2. __Clean up values for the endowment__      
 
-  * There were `1111` number of entries that used million or Million
-  * There were `19501` number of entries that used billion or Billion
+ * There were `1111` number of entries that used million or Million
+ * There were `19501` number of entries that used billion or Billion
 
-3. __Finding issues in other columns__
+3. __Finding issues in other columns__   
 
 
 
