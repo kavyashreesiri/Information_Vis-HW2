@@ -75,10 +75,22 @@ Below is the Summary of results obtained from Nearset Neighbour method:
 
 __Finding issues in other columns__   
 
-
-
-
-
+* __Cleaning up dates__
+    * Dates are messy and will be entered in different formats like MM/DD/YYYY or DD/MMM/YYYY an so on
+    * So,cleaning date is difficult to perform on any dataset.
+    * Now, we will first convert dtaes to text type and then to date format.
+    * First select the column `established`.
+    * Choose `Edit cells`,followed by `Common transformations`,then `To text`
+    * Next,we convert to date type.`Edit cells`,then `Common transformations` chnage to `To date`
+    * If dates are not converted to date type,date format keeps differeing in each record and we will not be able to make sense of data
+    * Now,we have January 1st as the month and day if date did not have these values
+    * We have to use `Timeline Facet` to clean the date further to select Non-time data.
+    * So, we extract only numbers from rows which have text in the field for which we will use regular expression
+    * Select column `established`,choose `Edit cells` and Edit cells.
+    * Here we insert regular expressoin to extract last four digits: `value.match(/.*(\d{4}).*/)[0]`
+    * Now,convert to date type.`Edit cells`,then `Common transformations` chnage to `To date`
+    * Extract year fromfollowing expression: `value.toString('yyyy')`
+    * Now,year is in YYYY format and we can use this cleaned date to visualize
 
 
 
@@ -101,11 +113,45 @@ __27 Club__
 * Process followed:  
     * Created project "Musicians" in OpenRefine by uploading the dataset.
     * Find Birth date
-    * Created a new column named birthdate that uses the first value it encounters when scanning from birthdate1 to birthdate2 to birthdate3 in each row.  
-    * I used the below transform :   
+        * Create a new column named `birthdate` that uses the first value it encounters when scanning from birthdate1 to birthdate2 to birthdate3 in each row.  
+        * I used the below transform :   
            `forNonBlank(cells.birthdate1.value, v1, v1, forNonBlank(cells.birthdate2.value, v2, v2, forNonBlank(cells.birthdate3.value, v3, v3, null)))`
-    * To apply transform,select one of the birthdate column and click on Edit cells,then choose Transform.    
-    * 
+        * To apply transform,select one of the `birthdate` column and click on `Edit columns`,then choose `Add new column based on this column` 
+        * Give `birthdate` as name of new column
+        * Insert the above transform in expression field,click OK
+        * This craetes a new column which stores birthdate value from one of columns of birthdate.
+    * Find Death date
+        * Create a new column named `deathdate` that uses the first value it encounters when scanning from deathdate1 to deathdate2 to deathdate3 in each row.  
+        * I used the below transform :   
+           `forNonBlank(cells.deathdate1.value, v1, v1, forNonBlank(cells.deathdate2.value, v2, v2, forNonBlank(cells.deathdate3.value, v3, v3, null)))`
+        * To apply transform,select one of the `deathdate` column and click on  `Edit columns`,then choose `Add new column based on this column`  
+        * Give `birthdate` as name of new column
+        * Insert the above transform in expression field,click OK
+        * This craetes a new column which stores deathdate value from one of columns of deathdate.       
+    * Extract year of birth and death
+        * Use the below expression to extract only years from both birthdate and deathdate column   
+        * Expression: `value.match(/.*(\d{4}).*/)[0]`
+        * First choose column,click on `Transform` and then insert the expression.
+        * This extracts last four digits from the birthdate and deathdate columns.
+        * In the expression, ".*" means a sequence of zero or more characters,"\d" indicates we are searching for a digit.
+        * "{4}" shows that we want to match exactly 4 digits. 
+        * The value.match function returns an array of results, so we use "[0]" to retrieve only the first match.
+    * Convert both birthdate and deathdate to number type
+        * Now convert the column  to numeric type, by selecting column.
+        * Choose `Edit cells`,then `Common transforms`.Select `To number`
+        * Now we can see,there are few non-numeric values
+        * Do the process for both the columns.
+    * Calculate age from birthdate and deathdate
+        * Create a new column named `age` using birthdate and deathdate column.
+        * To apply transform,select one of the `birthdate` column and click on `Edit columns`,then choose `Add new column based on this column` 
+        * Use this command:`cells.deathdate.value - cells.birthdate.value` and give new column name as `age`
+    
+    * Find age of 27 year
+        *  Now,create a `Numeric Facet` on `age` column to consider records which are numeric
+        * Select column `age`,choose `facet`,then `Numeric Facet` which shows a histogram of the values
+        * From this,select only `numeric` values to extract valid numeric  records
+        * Now,create a Tranform on the same column by selecting E`dit cells`,then `Transform` and then insert the expression,value==27
+        * This gives 90 records which have age column value as 27.
 
 
 
