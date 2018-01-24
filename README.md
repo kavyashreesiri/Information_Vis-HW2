@@ -6,20 +6,19 @@ Link to Homework-2:
 __Homework 2-Writeup__
 
 __Tutorial__
-1. __Clean up country names__
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Therer were other countries with issues of spelling.Variations of Country names are listed below are:
-* "Netherlands" which was also spelled as "the netherlands"
-* "England" which was also spelled as "England,UK","England,United Kingdom","England,U.K"
-* "Russia" which also spelled as "Rossija","Russain Federation"
-* "China" which also spelled as "Republic of China"
-* "Canada" which was also spelled as "Canada BIP 6L2"
-* "Scotland" which was also spelled as "Scotland,UK","Scotland,United Kingdom","Scotland,U.K"
+1. __Clean up country names__   
+    * There were other countries with issues of spelling.Variations of Country names are listed below are:
+        * "Netherlands" which was also spelled as "the netherlands"
+        * "England" which was also spelled as "England,UK","England,United Kingdom","England,U.K"
+        * "Russia" which also spelled as "Rossija","Russain Federation"
+        * "China" which also spelled as "Republic of China"
+        * "Canada" which was also spelled as "Canada BIP 6L2"
+        * "Scotland" which was also spelled as "Scotland,UK","Scotland,United Kingdom","Scotland,U.K"
 
-In order to discover these variations,I used various __Methods__ and __Keying functions__ with different parameters.
-There are two methods provided by OpenRefine:
-1. __Key Collision__-This method allows us to cluster many alternative values which have same meaning to have the same key
-2. __Nearest neighbor__
+    In order to discover these variations,I used various __Methods__ and __Keying functions__ with different parameters.
+    There are two methods provided by OpenRefine:
+   1. __Key Collision__-This method allows us to cluster many alternative values which have same meaning to have the same key
+   2. __Nearest neighbor__
 
   * __Using Key Collision to find variations__:
     This method provides __3 Keying functions__:
@@ -49,10 +48,10 @@ __Summary of the above operations:__
 |Key collision  | Metaphone3                    | 2             | 46046      | United States(45431 rows),United States of America(615 rows)|United States|
 
 
- * __Using Nearest neighbor__   
-  * This method allots a cluster to any pair of strings that are closer than a certain threshold value  
-  * There are two methods provided calculate distance between a pair of strings.
-    * They are:
+   * __Using Nearest neighbor__   
+     * This method allots a cluster to any pair of strings that are closer than a certain threshold value  
+     * There are two methods provided calculate distance between a pair of strings.
+       * They are:
          * Levenshtein Distance- calculates least number of edit operations that are reqiuired to change one string to another
          * PPM-Uses Kolmogrov complexity to estimate 'Similarity' between strings.
     
@@ -69,13 +68,13 @@ Below is the Summary of results obtained from Nearset Neighbour method:
 |Nearest neighbor|PPM|8.0|5 |2  |6|China(4 rows),Republic of China(2 rows)|China|
 
 
-2. __Clean up values for the endowment__
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2. __Clean up values for the endowment__   
+
   * There were `1111` number of entries that used million or Million
   * There were `19501` number of entries that used billion or Billion
 
 3. __Finding issues in other columns__
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
@@ -86,16 +85,17 @@ Below is the Summary of results obtained from Nearset Neighbour method:
 
 
 4. __Exploring the data with scatter plots__     
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    Yes,there is correlation.As the endowment donation amount incresases for a specific university,Number of students also increase. It shows __positive correlation__.   
 
-5. __Geocoding names and addresses__
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    * I selected 7 rows from numeric log facet applied on numStudents column.
-    * I obtained 51096 rows from original dataset which had 75043 rows after performing geocoding.
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Yes,there is correlation.As the endowment donation amount incresases for a specific university,Number of students also increase. It shows __positive correlation__.  
+    Scatterplot that obtained is: [endowment(x) vs. numStudents(y) 
+* http://www.cs.odu.edu/~psiriger/cs725/CS725-HW2/Endowment_vs_numStudents_plot.png
+
+5. __Geocoding names and addresses__   
+
+* I selected 7 rows from numeric log facet applied on numStudents column.
+* I obtained 51096 rows from original dataset which had 75043 rows after performing geocoding.
+
 6. __27 Club__
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     * I found out that __90 musicians were dead at the age of 27__.  
     Process followed:  
     * Created project "Musicians" in OpenRefine by uploading the dataset.    
