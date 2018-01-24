@@ -86,19 +86,21 @@ __Finding issues in other columns__
 
 __Exploring the data with scatter plots__     
 
-    Yes,there is correlation.As the endowment donation amount incresases for a specific university,Number of students also increase. It shows __positive correlation__.  
-    Scatterplot that obtained is: [endowment(x) vs. numStudents(y) 
+* Yes,there is correlation.As the endowment donation amount incresases for a specific university,Number of students also increase. It shows __positive correlation__.  
+* Scatterplot that obtained is: [endowment(x) vs. numStudents(y) 
 * http://www.cs.odu.edu/~psiriger/cs725/CS725-HW2/Endowment_vs_numStudents_plot.png
 
  __Geocoding names and addresses__   
 
 * I selected 7 rows from numeric log facet applied on numStudents column.
 * I obtained 51096 rows from original dataset which had 75043 rows after performing geocoding.
+* Results of Geocoding in CSV file: http://www.cs.odu.edu/~psiriger/cs725/CS725-HW2/geocoding_results.csv
 
 __27 Club__
-    * I found out that __90 musicians were dead at the age of 27__.  
-    Process followed:  
-    * Created project "Musicians" in OpenRefine by uploading the dataset.    
+*  I found out that __90 musicians were dead at the age of 27__.  
+* Process followed:  
+    * Created project "Musicians" in OpenRefine by uploading the dataset.
+    * Find Birth date
     * Created a new column named birthdate that uses the first value it encounters when scanning from birthdate1 to birthdate2 to birthdate3 in each row.  
     * I used the below transform :   
            `forNonBlank(cells.birthdate1.value, v1, v1, forNonBlank(cells.birthdate2.value, v2, v2, forNonBlank(cells.birthdate3.value, v3, v3, null)))`
