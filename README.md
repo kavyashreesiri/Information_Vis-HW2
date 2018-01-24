@@ -92,6 +92,7 @@ Below is the Summary of results obtained from Nearset Neighbour method:
 5. __Geocoding names and addresses__
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     * I selected 7 rows from numeric log facet applied on numStudents column.
+    * There were `1111` number of entries that used million or Million
     * I obtained 51096 rows from original dataset which had 75043 rows after performing geocoding
 
 6. __27 Club__
